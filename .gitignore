@@ -2,4 +2,3 @@ node_modules
 .env.template
 .env
 .firebaserc
-src\firebase_config.ts
