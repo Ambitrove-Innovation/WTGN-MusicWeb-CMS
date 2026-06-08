@@ -31,6 +31,7 @@ import { CenteredView } from "@firecms/ui";
 import { demoCollection } from "./collections/demo";
 import { subscribersCollection } from "./collections/subscribers";
 import { firebaseConfig } from "./firebase_config";
+import { liveEvents } from "./collections/liveEvents";
 
 function App() {
 
@@ -56,7 +57,8 @@ function App() {
 
     const collections = useMemo(() => [
         demoCollection,
-        subscribersCollection
+        subscribersCollection,
+        liveEvents
     ], []);
 
 

@@ -1,25 +1,11 @@
 import { buildCollection, buildProperty } from "@firecms/core";
 
-// This is a demo collection with many of the available properties
 export const subscribersCollection = buildCollection({
     id: "subscribers",
     name: "Subscribers collection",
     description: "This is a collection with all **newsletter subscribers**",
     path: "subscribers",
     properties: {
-
-        /*
-        batch: {
-            name: "Emails",
-            dataType: "array",
-            of: {
-                dataType: "string",
-                validation: {
-                    unique: true
-                }
-            }
-        }
-        */
 
         email: {
             name: "Email Address",
