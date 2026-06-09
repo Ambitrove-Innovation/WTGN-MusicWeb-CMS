@@ -7,14 +7,6 @@ export const liveEvents = buildCollection({
     path: "liveEvents",
     properties: {
 
-        id: {
-            name: "ID",
-            dataType: "string",
-            validation: {
-                unique: true
-            }
-        }, 
-
         date: {
             name: "Date",
             dataType: "map",
